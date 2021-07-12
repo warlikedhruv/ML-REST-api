@@ -1,0 +1,8 @@
+from django.db import models
+
+# Create your models here.
+from django.db import models
+
+
+class File(models.Model):
+    image = models.ImageField(upload_to='gender_img/' ,max_length=500, blank=True, null=True)
